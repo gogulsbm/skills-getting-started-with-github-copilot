@@ -23,16 +23,15 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 activities = {
     "Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
         "schedule": "Mondays, 4:00 PM - 5:30 PM",
         "max_participants": 15,
-        "participants": []
+        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
     },
     "Basketball Team": {
         "description": "Join the basketball team and compete in local tournaments",
         "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
         "max_participants": 20,
-        "participants": []
+        "participants": ["alex@mergington.edu"]
     },
     "Art Club": {
         "description": "Explore various art techniques and create your own masterpieces",
@@ -57,9 +56,6 @@ activities = {
         "schedule": "Thursdays, 3:00 PM - 4:30 PM",
         "max_participants": 15,
         "participants": []
-    }
-        "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
     },
     "Programming Class": {
         "description": "Learn programming fundamentals and build software projects",
