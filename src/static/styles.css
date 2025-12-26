@@ -179,6 +179,26 @@ footer {
   font-size: 0.9rem;
   color: #37474f;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  padding: 0 4px;
+  font-size: 0.9rem;
+  line-height: 1;
+  border-radius: 50%;
+}
+
+.participant-remove:hover {
+  color: #e53935;
+  background-color: rgba(230, 57, 70, 0.06);
 }
 
 /* Empty participants hint */
